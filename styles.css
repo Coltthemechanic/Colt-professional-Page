@@ -1,27 +1,32 @@
 *{
-    margin: 1%;
     margin-left: 3%;
     margin-right: 3%;
     background-color:  #132A13;
     text-decoration-color: #ECF39E;
 
 }
-header{
-    margin:0%;
-    position:relative;
-    align-items: right;
-    justify-content: space-around;
-}
 h1{
-    margin-left: 3%;
+    margin-left: 10%;
     color:#ECF39E;
+    font-size:30px;
+    padding: 30px;
 }
 body{
     margin: 5%;
     color:#ECF39E;
 }
+p{
+    font-size:20px;
+    margin: 100px 200px;
+    padding: 10px;
+}
+.ColtAndZoie{
+    width: 500px;
+    height:375px;
+}
 .navbar{
     color: #ECF39E;
-    align-items: right;
-    font: size 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
 }
