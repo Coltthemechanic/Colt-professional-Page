@@ -25,6 +25,14 @@ p{
     height:375px;
     border:solid 3px #31572c;
 }
+.it-me{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height: 400px;
+    width:auto;
+}
 .ColtAndZoiePic{
     display: flex;
     flex-direction:column;
@@ -66,4 +74,11 @@ header{
 .contactInfo{
     background-color:#31572c;
     color:#ECF39E;
+}
+.transmission{
+    height:200px;
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
