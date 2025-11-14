@@ -1,15 +1,13 @@
 *{
-    margin-left: 3%;
-    margin-right: 3%;
     background-color:  #132A13;
     text-decoration-color: #ECF39E;
 
 }
 h1{
-    margin-left: 10%;
+    margin-left: 7%;
     color:#ECF39E;
     font-size:30px;
-    padding: 30px;
+    padding: 20px;
 }
 body{
     margin: 5%;
@@ -17,8 +15,7 @@ body{
 }
 p{
     font-size:20px;
-    margin: 100px 200px;
-    padding: 10px;
+    margin: 40px 150px 40px 150px;
 }
 .ColtAndZoie{
     display: flex;
@@ -26,12 +23,47 @@ p{
     align-items:center;
     width: 500px;
     height:375px;
+    border:solid 3px #31572c;
+}
+.ColtAndZoiePic{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 .navbar{
     color: #ECF39E;
+    background-color:#31572c;
     display: flex;
     flex-direction: row;
     font-size: 35px;
     width:relative;
     align-items: center;
+    justify-content:space-around;
+    height:60px;
+    border-radius: 10px;
+}
+header{
+    color: #31572c;
+    border-radius: 10px;
+}
+.navbarBackground{
+    background-color: #31572c;
+    border-radius: 10px;
+}
+.home{
+    background-color:#31572c;
+    color:#ECF39E
+}
+.experience{
+    background-color:#31572c;
+    color:#ECF39E;
+}
+.Homelabs{
+    background-color:#31572c;
+    color:#ECF39E;
+}
+.contactInfo{
+    background-color:#31572c;
+    color:#ECF39E;
 }
