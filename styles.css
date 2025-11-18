@@ -15,7 +15,7 @@ body{
 }
 p{
     font-size:20px;
-    margin: 40px 150px 40px 150px;
+    margin: 40px 2em;
 }
 .ColtAndZoie{
     display: flex;
