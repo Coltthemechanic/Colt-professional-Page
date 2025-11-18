@@ -14,8 +14,11 @@ body{
     color:#ECF39E;
 }
 p{
+    display: flex;
+    flex-wrap: wrap;
+
     font-size:20px;
-    margin: 40px 150px 40px 150px;
+    margin: 40px 2em;
 }
 .ColtAndZoie{
     display: flex;
